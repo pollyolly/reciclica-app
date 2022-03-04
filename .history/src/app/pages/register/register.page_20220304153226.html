@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>What do you want to do with the recyclable waste?</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ion-radio-group>
+        <ion-item>
+          <ion-label>I want to buy it</ion-label>
+          <ion-radio value="CLIENT" slot="start"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>I want to sell it</ion-label>
+          <ion-radio value="PARTNER" slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contact</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
